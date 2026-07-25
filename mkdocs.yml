@@ -86,6 +86,8 @@ nav:
                   platform-tokenizer-payment-handler.md"
               - Encrypted Credential: "specification/examples/\
                   encrypted-credential-handler.md"
+              - Shared Payment Token: "specification/examples/\
+                  shared-payment-token-handler.md"
       - Signatures: specification/signatures.md
       - Reference: specification/reference.md
       - Playground: specification/playground.md
@@ -415,6 +417,10 @@ plugins:
               Concrete payment handler example utilizing a 'Direct Encryption'
               flow, where a platform encrypts payment data with a business's
               public key for local decryption.
+          - specification/examples/shared-payment-token-handler.md: >-
+              Experimental payment handler example for issuing and redeeming
+              short-lived Shared Payment Tokens bound to a checkout, business,
+              amount, currency, and processor route.
           - specification/reference.md: >-
               Complete reference directory of all core UCP, type, and extension
               JSON schemas, including platform/business profiles and metadata
